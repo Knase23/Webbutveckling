@@ -1,0 +1,45 @@
+header {
+	text-align: center;
+}
+
+body{
+	display: flex;
+	background: #113587;
+	align-content: center;
+	flex-direction: column;
+	color: white;
+}
+nav {
+	background: #037979;
+	padding: 1%;
+	display: flex;
+	align-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.BoxList a
+ {
+ 	background: #006262;
+ 	padding:2%;
+ 	transition: 1s;
+ 	color: #E29804;
+ }
+.BoxList a:hover
+{
+	background: #037979;
+	color: #E29804;
+} 
+article{
+	padding: 0.1% 5px 0.1%;
+	background: #7FBC05aa;
+	color: black;
+}
+
+article h2 
+{
+	font-size: 32px;
+	padding-left: 2%;
+}
+article p{
+	padding-left:10px;
+}
